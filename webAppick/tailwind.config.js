@@ -10,7 +10,10 @@ export default {
       
         colorPrimary: '#245D51',
         colorSecondary: '#CB8461',
+        colorCarcol: '#F88C3D',
         blackShow : 'rgb(28 29 30 / 70%)',
+        whiteShadow : 'rgb(255 255 255 / 75%);',
+        lightBlack : '#2C2C2C',
         
       },
       fontFamily: {

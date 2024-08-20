@@ -14,16 +14,15 @@ const colosMobileMenu = () => {
 </script>
 
 <template>
-   
-     <header>
+    <header>
         <div class="w-full bg-colorPrimary">
-            <div class="hidden sm:hidden md:flex md:w-11/12 lg:w-container m-auto pt-4 lg:pt-6 items-center justify-between bg-colorPrimary">
+            <div class="hidden sm:hidden md:flex md:w-11/12 lg:w-container m-auto pt-4 lg:pt-6 items-center justify-between bg-colorPrimary lg:px-5 xl:px-0">
                 <img class="w-28 lg:w-32 h-auto" src="../images/Logo.png">
                 <div class="">
                     <ul class="py-2 flex md:space-x-3 lg:space-x-8">
                         <li>
                             <a href="#" class="text-white text-base lg:text-lg capitalize">
-                                Hone
+                                Home
                             </a>
                         </li>
                         <li>
@@ -59,12 +58,12 @@ const colosMobileMenu = () => {
             </div>
 
             <!---- Mobile menu start  ---->
-            <div class="md:hidden">
-                <div class="flex w-80 m-auto items-center justify-between pt-4">
+            <div class="block md:hidden">
+                <div class="flex w-11/12 m-auto items-center justify-between pt-4">
                     <img class="w-28 h-auto" src="../images/Logo.png">
                     <img @click="togolMenu()" src="../svg/humburger.svg">
                 </div>
-                <div :class="[colosMenu ? 'left-[-100%]' : 'left-0']" class="fixed top-0 h-screen duration-300 w-full bg-blackShow">
+                <div :class="[colosMenu ? 'left-[-100%]' : 'left-0']" class="fixed top-0 h-screen duration-300 w-full bg-blackShow z-20">
                     <div class="bg-colorPrimary w-10/12 h-screen px-5">
                         <div class="flex items-center justify-between py-4">
                             <img class="w-28 h-auto" src="../images/Logo.png">
@@ -102,14 +101,9 @@ const colosMobileMenu = () => {
                     </div>
                 </div>
             </div>
-           <!---- Mobile menu end  ---->
+            <!---- Mobile menu end  ---->
         </div>
-     </header>
-
-      
-
-   
-
+    </header>
 </template>
 
 

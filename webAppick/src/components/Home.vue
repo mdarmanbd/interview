@@ -1,14 +1,13 @@
 <script setup>
-    
+    import HeroSection from './HeroSection.vue';
+    import TrustedSection from './TrustedSection.vue';
 
 </script>
 
 <template>
    
-
-      <h4 class="bg-purple-200">
-         this is home page
-      </h4>
+      <HeroSection/>
+      <TrustedSection/>
 
    
 
