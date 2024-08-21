@@ -5,14 +5,14 @@
 
 <template>
    <section class="w-full bg-colorPrimary">
-        <div class="w-11/12 lg:w-container bg-colorPrimary m-auto pt-12 lg:px-5 xl:px-0">
-            <div class="grid lg:grid-cols-2 lg:gap-24">
+        <div class="w-11/12 xl:w-container bg-colorPrimary m-auto pt-12 ">
+            <div class="grid lg:grid-cols-2 lg:gap-5 xl:gap-24">
                 <div class="text-center lg:text-start relative">
-                    <h3 class="text-white text-3xl lg:text-6xl font-semibold leading-[42px] lg:leading-[90px]">
+                    <h3 class="text-white text-3xl lg:text-5xl xl:text-6xl font-semibold leading-[42px] lg:leading-[80px] xl:leading-[90px]">
                         There is 
                         <span class="relative">
                             always 
-                            <img class="absolute left-0 top-10 lg:top-20" src="../images/underline.png" alt="underline.png">
+                            <img class="absolute left-0 top-10 lg:top-16 xl:top-20" src="../images/underline.png" alt="underline.png">
                         </span> 
                         something new for us to learn
                     </h3>
@@ -46,7 +46,7 @@
                         </ul>
                     </div>
                     <div class="lg:hidden">
-                        <a href="#" class="rotate-12 absolute -top-6 -left-4 z-10 bg-colorCarcol w-9 h-9 rounded-md flex items-center justify-center">
+                        <a href="#" class="rotate-12 absolute -top-6 left-0 z-10 bg-colorCarcol w-9 h-9 rounded-md flex items-center justify-center">
                             <img src="../svg/pen.svg">
                         </a>
 
@@ -54,7 +54,7 @@
                             <img class="rotate-12" src="../svg/calendar.svg">
                         </a>
 
-                        <a href="#" class="rotate-6 absolute bottom-8 -right-4 z-10 bg-purple-700 w-9 h-9 rounded-md flex items-center justify-center">
+                        <a href="#" class="rotate-6 absolute bottom-8 right-0 z-10 bg-purple-700 w-9 h-9 rounded-md flex items-center justify-center">
                             <img src="../svg/play.svg">
                         </a>
                     </div>
