@@ -2,9 +2,8 @@
 
 </script>
 
-
 <template>
-    <div class="bg-white w-full lg:pt-32 pb-56">
+    <div class="bg-white w-full lg:pt-32">
         <div class="w-11/12 xl:w-container m-auto bg-[#F2E7DB] rounded-md relative">
             <img class="absolute top-0 left-0 w-10 h-10 lg:w-auto lg:h-auto" src="../images/left-Intersect.png" alt="left-intersect.png">
             <img class="lg:hidden absolute bottom-0 right-0 w-10 h-10" src="../images/right-Intersect.png" alt="left-intersect.png">
