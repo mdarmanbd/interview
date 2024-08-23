@@ -5,6 +5,7 @@
     import WhyDoSection from './WhyDoSection.vue';
     import PopularSectionVue from './PopularSection.vue';
     import SkillSectionVue from './SkillSection.vue';
+    import JoinUsSectionVue from './JoinUsSection.vue';
 
 </script>
 
@@ -16,6 +17,7 @@
     <WhyDoSection/>
     <PopularSectionVue/>
     <SkillSectionVue/>
+    <JoinUsSectionVue/>
 
 </template>
 

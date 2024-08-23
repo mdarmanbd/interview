@@ -82,7 +82,6 @@
   </section>
 </template>
 
-
 <style>
 .bg-skill {
     background-image: url("../images/rectangle.png");

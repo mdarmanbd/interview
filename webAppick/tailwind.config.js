@@ -17,6 +17,7 @@ export default {
         lightGray : '#808080',
         deepGreen : '#245D51',
         lightPink : 'rgba(203, 132, 97, 0.19)',
+        cream : '#F2E7DB',
       },
       fontFamily: {
         avenir: ['Avenir', 'sans-serif'],
