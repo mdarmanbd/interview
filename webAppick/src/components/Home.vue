@@ -6,6 +6,8 @@
     import PopularSectionVue from './PopularSection.vue';
     import SkillSectionVue from './SkillSection.vue';
     import JoinUsSectionVue from './JoinUsSection.vue';
+    import PriceCardSectionVue from './PriceCardSection.vue';
+
 
 </script>
 
@@ -18,6 +20,7 @@
     <PopularSectionVue/>
     <SkillSectionVue/>
     <JoinUsSectionVue/>
+    <PriceCardSectionVue/>
 
 </template>
 
