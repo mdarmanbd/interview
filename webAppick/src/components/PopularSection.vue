@@ -1,18 +1,11 @@
 <script>
     import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
-
-    // Import Swiper Vue.js components
     import { Swiper, SwiperSlide } from 'swiper/vue';
-
-    // Import Swiper styles
     import 'swiper/css';
     import 'swiper/css/navigation';
     import 'swiper/css/pagination';
     import 'swiper/css/scrollbar';
 
-
-    
-  // Import Swiper styles
   export default {
     components: {
       Swiper,
@@ -32,25 +25,22 @@
       };
     },
   };
-
-
+  
 </script>
 
 <template>
   <section class="w-full py-20 bg-colorPrimary relative">
-    <img class="absolute left-44 top-32 w-12 h-12" src="../images/right-angle-orange.png" alt="right-angle.png">
-    <img class="absolute right-44 top-24 w-6 h-6" src="../images/circle-orange.png" alt="circle.png">
-    <div class="text-center pb-12">
-        <h2 class="text-4xl leading-[54px] font-semibold text-white pb-2.5">
+    <img class="absolute left-5 lg:left-44 top-9 lg:top-32 w-9 h-9 lg:w-12 lg:h-12" src="../images/right-angle-orange.png" alt="right-angle.png">
+    <img class="absolute right-3 lg:right-44 top-14 lg:top-24 w-9 h-9 lg:w-6 lg:h-6" src="../images/circle-orange.png" alt="circle.png">
+    <div class="text-center pb-10 lg:pb-12">
+        <h2 class="text-lg lg:text-4xl leading-[54px] font-semibold text-white pb-5 lg:pb-2.5">
             Popular courses of the week
         </h2>
-        <p class="lg:w-[347px] lg:m-auto text-white opacity-60 text-base leading-9 font-normal">
+        <p class="w-[311px] lg:w-[347px] m-auto text-white opacity-60 text-xs lg:text-base lg:leading-9 font-normal">
             List of the most popular lists that are often studied by our members
         </p>
     </div>
-
     <div class="lg:w-11/12 xl:w-container m-auto pt-12">
-
         <swiper
             :modules="modules"
             :space-between="30"
@@ -59,21 +49,32 @@
             @swiper="onSwiper"
             @slideChange="onSlideChange"
             :breakpoints="{ 
-                375:
-                    { 
+
+                375:{
                         slidesPerView: 1,
                         spaceBetween: 15,
                         pagination: false,
 
-                     },
-                1024: 
-                    { 
+                    },
+                768:{
+                        slidesPerView: 2,
+                        spaceBetween: 30,
+                        pagination: false,
+                    },
+                1024:{
+                    
+                        slidesPerView: 2,
+                        spaceBetween: 50,
+                        pagination: false,
+                    
+                    },
+                1280:{
                         slidesPerView: 3,
                         spaceBetween: 40,
                         pagination: false,
-                     
-                    } 
-                }"
+                    }
+                   
+            }"
             class="custom-swiper"    
         >
             <swiper-slide>
@@ -393,11 +394,8 @@
                     </div>
                 </div>
             </swiper-slide>
-
         </swiper>
-
     </div>
-
   </section>
 </template>
 
@@ -410,7 +408,6 @@
     position: relative;
     width: 100%;
     height: 165px;
-    /* height: 250px; */
 }
 
 .bg-card-two {
@@ -420,7 +417,6 @@
     position: relative;
     width: 100%;
     height: 165px;
-    /* height: 250px; */
 }
 
 .bg-card-three {
@@ -430,7 +426,6 @@
     position: relative;
     width: 100%;
     height: 165px;
-    /* height: 250px; */
 }
 
 .swiper-button-prev {
@@ -463,7 +458,6 @@
 .swiper-button-prev:after {
     content: '';
     font-family: '';
-    /* background-image: url("../svg/prev-icon.svg"); */
     background-image: url("../images/prev.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -475,7 +469,6 @@
 .swiper-button-next:after {
     content: '';
     font-family: '';
-    /* background-image: url("../svg/next-icon.svg"); */
     background-image: url("../images/next.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -535,7 +528,6 @@
         width: 67px;
         height: 67px;
     }
-
-
 }
+
 </style>
