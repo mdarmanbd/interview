@@ -7,6 +7,8 @@
     import SkillSectionVue from './SkillSection.vue';
     import JoinUsSectionVue from './JoinUsSection.vue';
     import PriceCardSectionVue from './PriceCardSection.vue';
+    import WhatDoSectionVue from './WhatDoSection.vue';
+
 
 
 </script>
@@ -21,7 +23,7 @@
     <SkillSectionVue/>
     <JoinUsSectionVue/>
     <PriceCardSectionVue/>
-
+    <WhatDoSectionVue/>
 </template>
 
 

@@ -21,6 +21,7 @@ export default {
         blueShadow: 'rgba(82, 67, 194, 10.37%)',
         lightCream : '#FDC2A5',
         milkCream : 'rgba(254, 209, 186, 10%)',
+        offWhiteCream : '#F8F8F8',
       },
       fontFamily: {
         avenir: ['Avenir', 'sans-serif'],
