@@ -9,6 +9,7 @@ export default {
       colors:{
       
         colorPrimary: '#245D51',
+        colorFooter: '#286054',
         colorSecondary: '#CB8461',
         colorCarcol: '#F88C3D',
         blackShow : 'rgb(28 29 30 / 70%)',

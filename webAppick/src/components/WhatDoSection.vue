@@ -473,13 +473,6 @@
 
 @media (min-width:1280px) {
 
-    /* .swiper-slide-active{
-        background-color: transparent;
-        position: relative;
-    } */
-
-    
-
     .swiper-button-prev {
         left: 44%;
     }
@@ -489,7 +482,5 @@
     }
 
 }
-
-
 
 </style>

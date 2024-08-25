@@ -8,7 +8,8 @@
     import JoinUsSectionVue from './JoinUsSection.vue';
     import PriceCardSectionVue from './PriceCardSection.vue';
     import WhatDoSectionVue from './WhatDoSection.vue';
-
+    import FooterSectionVue from './FooterSection.vue';
+   
 
 
 </script>
@@ -24,6 +25,8 @@
     <JoinUsSectionVue/>
     <PriceCardSectionVue/>
     <WhatDoSectionVue/>
+    <FooterSectionVue/>
+    
 </template>
 
 
