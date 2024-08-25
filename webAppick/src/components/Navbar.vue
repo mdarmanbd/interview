@@ -50,7 +50,7 @@ const colosMobileMenu = () => {
                     </ul>
                 </div>
                 <div class="flex space-x-5">
-                    <button class="text-base lg:text-lg text-white w-12 m-auto py-1.5 duration-150 rounded-md hover:bg-colorSecondary">
+                    <button class="text-base lg:text-lg text-white w-24 m-auto py-1.5 duration-150 rounded-md hover:bg-colorSecondary">
                         Login 
                     </button>
                     <button class="text-base lg:text-lg text-white bg-colorSecondary md:w-20 lg:w-40 m-auto py-1.5 duration-150 rounded-md">
