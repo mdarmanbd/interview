@@ -20,7 +20,9 @@
             </button>
         </div>
         <div class="flex flex-col lg:flex-row w-11/12 xl:w-container m-auto py-12 lg:py-0 lg:pt-36 items-center justify-between">
-            <img class="order-2 lg:order-1 pt-12 lg:pt-0 w-32 h-auto" src="../images/Logo.png">
+            <a href="#" class="order-2 lg:order-1">
+                <img class="pt-12 lg:pt-0 w-32 h-auto" src="../images/Logo.png">
+            </a>
             <div class="order-1 lg:order-2">
                 <ul class="block lg:flex lg:space-x-8 space-y-2.5 lg:space-y-0 text-center lg:text-start">
                     <li>

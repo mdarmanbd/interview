@@ -17,7 +17,9 @@ const colosMobileMenu = () => {
     <header>
         <div class="w-full bg-colorPrimary">
             <div class="hidden sm:hidden md:flex md:w-11/12 lg:w-11/12 xl:w-container m-auto pt-4 lg:pt-6 items-center justify-between bg-colorPrimary">
-                <img class="w-28 lg:w-32 h-auto" src="../images/Logo.png">
+                <a href="#">
+                    <img class="w-28 lg:w-32 h-auto" src="../images/Logo.png">
+                </a>
                 <div class="">
                     <ul class="py-2 flex md:space-x-3 lg:space-x-8">
                         <li>

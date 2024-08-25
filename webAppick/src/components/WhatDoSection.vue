@@ -95,7 +95,7 @@
                     }
                    
             }"
-            class="custom-swiper"    
+            class="my-swiper "    
         >
             <swiper-slide>
                 <div class="p-8 lg:px-12 lg:pt-12 lg:pb-4">
@@ -287,13 +287,13 @@
 
 <style>
 
-.custom-swiper {
+.my-swiper {
   padding: 0 0;
   position: relative;
 }
 
 
-.swiper-button-prev {
+.my-swiper .swiper-button-prev {
     width: 45px;
     height: 45px;
     background-color: white;
@@ -305,18 +305,18 @@
     left: 36%;
 }
 
-.swiper-slide-next{
+.my-swiper .swiper-slide-next{
     background-color: transparent !important;
     position: relative;
     
 }
 
-.swiper-slide-active{
+.my-swiper .swiper-slide-active{
     background-color: white !important;
     position: relative;
 }
 
-.swiper-slide-active::before{
+.my-swiper .swiper-slide-active::before{
     content: '';
     position: absolute;
     bottom: 2px;
@@ -327,7 +327,7 @@
     border-radius: 10px;
 }
 
-.swiper-button-next {
+.my-swiper .swiper-button-next {
     width: 45px;
     height: 45px;
     background-color: white;
@@ -339,16 +339,16 @@
     right: 36%;
 }
 
-.swiper-button-prev:hover {
+.my-swiper .swiper-button-prev:hover {
     background-color: #CB8461;
 }
 
-.swiper-button-next:hover {
+.my-swiper .swiper-button-next:hover {
     background-color: #CB8461;
 }
 
 
-.swiper-button-prev:after {
+.my-swiper .swiper-button-prev:after {
     content: '';
     font-family: '';
     background-image: url("../images/prev.png");
@@ -359,7 +359,7 @@
     
 }
 
-.swiper-button-next:after {
+.my-swiper .swiper-button-next:after {
     content: '';
     font-family: '';
     background-image: url("../images/next.png");
@@ -369,19 +369,19 @@
     height: 13px;
 }
 
-.swiper-button-prev:hover:after {
+.my-swiper .swiper-button-prev:hover:after {
     background-image: url("../svg/prev-white.svg"); 
 }
 
-.swiper-button-next:hover:after {
+.my-swiper .swiper-button-next:hover:after {
     background-image: url("../svg/next-white.svg"); 
 }
 
-.swiper-slide-next {
+.my-swiper .swiper-slide-next {
     background-color: white !important;
 }
 
-.custom-swiper .swiper-wrapper {
+.my-swiper .swiper-wrapper {
   overflow: visible;
   margin-bottom: 100px;
 }
@@ -392,11 +392,11 @@
 
 @media (min-width:768px) {
 
-    .swiper-button-prev {
+    .my-swiper .swiper-button-prev {
         left: 43%;
     }
 
-    .swiper-button-next {
+    .my-swiper .swiper-button-next {
         right: 43%;
     }
 
@@ -405,12 +405,12 @@
 
 @media (min-width: 992px) {
 
-    .swiper-slide-active{
+    .my-swiper .swiper-slide-active{
         background-color: transparent !important;
         position: relative;
     }
 
-    .swiper-slide-active::before{
+    .my-swiper .swiper-slide-active::before{
         content: '';
         position: absolute;
         bottom: 0;
@@ -421,13 +421,13 @@
         border-radius: 0;
     }
 
-    .swiper-slide-next{
+    .my-swiper .swiper-slide-next{
         background-color: white !important;
         position: relative;
         
     }
 
-    .swiper-slide-next::before{
+    .my-swiper .swiper-slide-next::before{
         content: '';
         position: absolute;
         bottom: 2px;
@@ -438,31 +438,31 @@
         border-radius: 10px;
     }
 
-    .swiper-button-prev:after{
+    .my-swiper .swiper-button-prev:after{
         background-image: url("../svg/prev-icon.svg");
         width: 34px;
         height: 34px;
     }
 
-    .swiper-button-next:after {
+    .my-swiper .swiper-button-next:after {
         background-image: url("../svg/next-icon.svg");
         width: 34px;
         height: 34px;
     }
 
-    .custom-swiper {
+    .my-swiper .custom-swiper {
         padding: 0 40px;
         margin: 0 50px;
     }
 
-    .swiper-button-prev {
+    .my-swiper .swiper-button-prev {
         width: 67px;
         height: 67px;
         top: 85%;
         left: 40%;
     }
 
-    .swiper-button-next {
+    .my-swiper .swiper-button-next {
         width: 67px;
         height: 67px;
         top: 85%;
@@ -473,11 +473,11 @@
 
 @media (min-width:1280px) {
 
-    .swiper-button-prev {
+    .my-swiper .swiper-button-prev {
         left: 44%;
     }
 
-    .swiper-button-next {
+    .my-swiper .swiper-button-next {
         right: 44%;
     }
 
