@@ -2,7 +2,6 @@
 
 </script>
 
-
 <template>
     <section class="w-full py-12 xl:py-24">
         <div class="w-11/12 xl:w-container m-auto">
@@ -93,9 +92,4 @@
             </div>
         </div>
     </section>
-  
 </template>
-
-<style>
-
-</style>

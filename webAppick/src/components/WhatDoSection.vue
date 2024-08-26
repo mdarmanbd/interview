@@ -13,21 +13,10 @@
     },
     setup() {
       const onSwiper = (swiper) => {
-        const nextSlide = swiper.slides[swiper.activeIndex + 1];
-        if (nextSlide) {
-            nextSlide.style.backgroundColor = 'white';
-        }
+
       };
       const onSlideChange = (swiper) => {
-        swiper.slides.forEach(slide => {
-            slide.style.backgroundColor = '';
-        });
-
-        const nextSlide = swiper.slides[swiper.activeIndex + 1];
-
-        if (nextSlide) {
-            nextSlide.style.backgroundColor = 'red !importen';
-        }
+   
 
       };
       return {
@@ -37,7 +26,6 @@
       };
     },
   };
-
 
 </script>
 
@@ -57,10 +45,7 @@
                 This is an honest review from members who have joined us
             </P>
         </div>
-       
-
-        <div class=" ">
-
+        <div>
             <swiper
             :modules="modules"
             :space-between="0"
@@ -125,7 +110,6 @@
                     </p>
                 </div>
             </swiper-slide>
-
             <swiper-slide>
                 <div class="px-8 py-8 lg:py-0 lg:px-12 lg:pt-12 lg:pb-4">
                     <img class="m-auto" src="../images/nany.png" alt="nany.png">
@@ -154,9 +138,6 @@
                     </p>
                 </div>
             </swiper-slide>
-
-
-           
             <swiper-slide>
                 <div class="px-8 py-8 lg:py-0 lg:px-12 lg:pt-12 lg:pb-4">
                     <img class="m-auto" src="../images/alexa.png" alt="alexa.png">
@@ -185,9 +166,6 @@
                     </p>
                 </div>
             </swiper-slide>
-
-           
-
             <swiper-slide>
                 <div class="px-8 py-8 lg:py-0 lg:px-12 lg:pt-12 lg:pb-4">
                     <img class="m-auto" src="../images/jason.png" alt="jason.png">
@@ -216,8 +194,6 @@
                     </p>
                 </div>
             </swiper-slide>
-
-
             <swiper-slide>
                 <div class="px-8 py-8 lg:py-0 lg:px-12 lg:pt-12 lg:pb-4">
                     <img class="m-auto" src="../images/nany.png" alt="nany.png">
@@ -246,8 +222,6 @@
                     </p>
                 </div>
             </swiper-slide>
-
-            
             <swiper-slide>
                 <div class="px-8 py-8 lg:py-0 lg:px-12 lg:pt-12 lg:pb-4">
                     <img class="m-auto" src="../images/alexa.png" alt="alexa.png">
@@ -276,22 +250,17 @@
                     </p>
                 </div>
             </swiper-slide>
-
-
             </swiper>
         </div>
-
     </div>
   </section>
 </template>
-
 <style>
 
 .my-swiper {
   padding: 0 0;
   position: relative;
 }
-
 
 .my-swiper .swiper-button-prev {
     width: 45px;
@@ -386,10 +355,6 @@
   margin-bottom: 100px;
 }
 
-@media (min-width:375px) {
-   
-}
-
 @media (min-width:768px) {
 
     .my-swiper .swiper-button-prev {
@@ -401,7 +366,6 @@
     }
 
 }
-
 
 @media (min-width: 992px) {
 

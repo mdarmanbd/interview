@@ -20,7 +20,7 @@ const colosMobileMenu = () => {
                 <a href="#">
                     <img class="w-28 lg:w-32 h-auto" src="../images/Logo.png">
                 </a>
-                <div class="">
+                <div>
                     <ul class="py-2 flex md:space-x-3 lg:space-x-8">
                         <li>
                             <a href="#" class="text-white text-base lg:text-lg capitalize">
@@ -58,7 +58,6 @@ const colosMobileMenu = () => {
                     </button>
                 </div>
             </div>
-
             <!---- Mobile menu start  ---->
             <div class="block md:hidden">
                 <div class="flex w-11/12 m-auto items-center justify-between pt-4">
@@ -107,9 +106,3 @@ const colosMobileMenu = () => {
         </div>
     </header>
 </template>
-
-
-<style scoped>
-
-
-</style>

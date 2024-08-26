@@ -13,10 +13,10 @@
     },
     setup() {
       const onSwiper = (swiper) => {
-        // console.log(swiper);
+       
       };
       const onSlideChange = () => {
-        // console.log('slide change');
+       
       };
       return {
         onSwiper,
@@ -78,7 +78,7 @@
             class="custom-swiper"    
         >
             <swiper-slide>
-                <div class=" ">
+                <div>
                     <div class="bg-card-one rounded-t-2xl">
                         <img 
                             class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 border-[12px] border-white border-opacity-25 rounded-full cursor-pointer"
@@ -129,9 +129,8 @@
                     </div>
                 </div>
             </swiper-slide>
-
             <swiper-slide>
-                <div class=" ">
+                <div>
                     <div class="bg-card-two rounded-t-2xl">
                         <img 
                             class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 border-[12px] border-white border-opacity-25 rounded-full cursor-pointer"
@@ -182,9 +181,8 @@
                     </div>
                 </div>
             </swiper-slide>
-
             <swiper-slide>
-                <div class=" ">
+                <div>
                     <div class="bg-card-three rounded-t-2xl">
                         <img 
                             class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 border-[12px] border-white border-opacity-25 rounded-full cursor-pointer"
@@ -235,9 +233,8 @@
                     </div>
                 </div>
             </swiper-slide>
-
             <swiper-slide>
-                <div class=" ">
+                <div>
                     <div class="bg-card-one rounded-t-2xl">
                         <img 
                             class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 border-[12px] border-white border-opacity-25 rounded-full cursor-pointer"
@@ -288,9 +285,8 @@
                     </div>
                 </div>
             </swiper-slide>
-
             <swiper-slide>
-                <div class=" ">
+                <div>
                     <div class="bg-card-two rounded-t-2xl">
                         <img 
                             class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 border-[12px] border-white border-opacity-25 rounded-full cursor-pointer"
@@ -341,9 +337,8 @@
                     </div>
                 </div>
             </swiper-slide>
-
             <swiper-slide>
-                <div class=" ">
+                <div>
                     <div class="bg-card-three rounded-t-2xl">
                         <img 
                             class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 border-[12px] border-white border-opacity-25 rounded-full cursor-pointer"
@@ -490,10 +485,6 @@
 
 .custom-swiper .swiper-wrapper {
   overflow: visible; 
-}
-
-@media (min-width:375px) {
-   
 }
 
 @media (min-width: 992px) {

@@ -56,7 +56,3 @@
     </div>
   </section>
 </template>
-
-<style>
-
-</style>

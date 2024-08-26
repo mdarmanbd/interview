@@ -9,13 +9,9 @@
     import PriceCardSectionVue from './PriceCardSection.vue';
     import WhatDoSectionVue from './WhatDoSection.vue';
     import FooterSectionVue from './FooterSection.vue';
-   
-
-
 </script>
 
 <template>
-   
     <HeroSection/>
     <TrustedSection/>
     <SubscribeSection/>
@@ -26,11 +22,6 @@
     <PriceCardSectionVue/>
     <WhatDoSectionVue/>
     <FooterSectionVue/>
-    
 </template>
 
 
-<style scoped>
-
-
-</style>
