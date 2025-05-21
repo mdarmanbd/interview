@@ -24,7 +24,7 @@ const colosMobileMenu = () => {
                     <ul class="py-2 flex md:space-x-3 lg:space-x-8">
                         <li>
                             <a href="#" class="text-white text-base lg:text-lg capitalize">
-                                Home vsdfd64465
+                                Home
                             </a>
                         </li>
                         <li>
