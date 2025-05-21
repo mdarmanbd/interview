@@ -16,7 +16,7 @@
 						<img class="rotate-12" src="../svg/calendar.svg">
 					</a>
 					<a href="#" class="rotate-12 absolute top-28 right-3 z-10 bg-colorCarcol w-12 h-12 rounded-md flex items-center justify-center">
-					<img src="../svg/pen.svg">
+						<img src="../svg/pen.svg">
 					</a>
 					<div class="absolute bottom-14 right-6 rounded-md p-3 bg-whiteShadow w-56">
 						<div class="flex space-x-2">

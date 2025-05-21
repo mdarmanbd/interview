@@ -95,7 +95,6 @@
    </section>
 </template>
 
-
 <style scoped>
 .bg-hero{
     background-image: url("../images/hero-img.png");
